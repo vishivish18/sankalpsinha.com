@@ -1,0 +1,1061 @@
+/*///////////////////////////////////////*/
+
+
+/*///////// My Custom CSS ///////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*	Author:  Sankalp Sinha
+	Updated: February 2015
+/////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*/////////// Body CSS //////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+a:link {
+    color: #000;
+}
+
+
+/* unvisited link */
+
+a:visited {
+    color: #000;
+}
+
+
+/* visited link */
+
+a:hover {
+    color: #FD5F00;
+}
+
+
+/* mouse over link */
+
+a:active {
+    color: #FD5F00;
+}
+
+
+/* selected link */
+
+::selection {
+    color: #fff;
+    background: #FD5F00;
+}
+
+.link_no_text_decoration {
+    text-decoration: none;
+}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/*/////////// Used for making links orange ////////////////*/
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////*/
+
+.link_orange:link {
+    color: #fd5725;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.link_orange:visited {
+    color: #fd5725;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+.link_orange:hover {
+    color: #fd5725;
+    text-decoration: underline;
+}
+
+
+/* mouse over link */
+
+.link_orange:active {
+    color: #fd5725;
+    text-decoration: underline;
+}
+
+
+/* selected link */
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////// Used for featured links in project pages ////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+.link_highlight:link {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* unvisited link */
+
+.link_highlight:visited {
+    color: #fd5725;
+    text-decoration: underlin;
+}
+
+
+/* visited link */
+
+.link_highlight:hover {
+    color: #fd5725;
+    text-decoration: underline;
+}
+
+
+/* mouse over link */
+
+.link_highlight:active {
+    color: #fd5725;
+    text-decoration: underline;
+}
+
+
+/* selected link */
+
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #000;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*/////////// Navigation ////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#main_top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header {
+    width: 100%;
+    z-index: 100000000;
+    top: 0px !important;
+    left: 0px;
+    position: relative;
+    border-top: 4px solid #FD5F00;
+}
+
+.navbar-toggle {
+    margin-right: 9px;
+}
+
+.navbar .container-fluid {
+    background-color: #fff;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    font-family: Raleway;
+    font-weight: 700;
+    color: #000;
+    padding-left: 30px;
+}
+
+.navbar-right {
+    margin-right: 0px;
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+.nav>li {}
+
+.nav>li>a {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 13px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #FD5F00;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FD5F00;
+}
+
+.nav_links {
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#nav_contact {
+    margin-right: 10px;
+}
+
+#nav_links_social {
+    margin-left: 10px !important;
+}
+
+.nav_links_social_icon {
+    display: inline-block !important;
+    margin-left: 25px !important;
+    margin-top: 3px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #fff !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    width: 240px;
+}
+
+.dropdown-menu_items {
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+.dropdown-menu_items_link {}
+
+.dropdown-menu>li>a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.dropdown-menu_project_tags {
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+    float: right;
+    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-top: 0px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #000;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #333;
+}
+
+#go_to_top_icon {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    font-size: 30px;
+    color: #E4E4E4;
+    cursor: pointer;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+#go_to_top_icon:hover {
+    color: #000000;
+    font-size: 36px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////// Index body CSS //////////////*/
+
+
+/*////////  calc(50% - 30%) /////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#index_hero_section {
+    height: calc(100vh - 70px);
+    background-size: cover;
+    position: relative;
+    margin-right: 0px;
+}
+
+#index_do_more_element_whole {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin: -170px 0 0 0px;
+}
+
+#index_do_more_text_extra {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: -0.3;
+    color: #000;
+}
+
+#index_do_more_text {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 110px;
+    letter-spacing: -4px;
+    top: -40px;
+    position: relative;
+    color: #000;
+}
+
+#index_do_more_text_tweet {
+    left: 205px;
+    top: -70px;
+    position: relative;
+}
+
+#index_do_more_text_tweet_icon {
+    color: #cacaca;
+    font-size: 20px;
+}
+
+#index_do_more_text_tweet_text {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+    color: cacaca;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*/////// Feature section CSS ///////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#feature_section {
+    height: 105px;
+    background-color: #f5f5f5;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+.feature_logos {
+    width: 95px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*////////// About page CSS /////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#about_section {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+#about_section_intro_ss_image {
+    height: 800px;
+    background-image: url(../about/images/sankalp_sinha.jpeg);
+    margin-top: -70px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+#about_section_intro_name {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#about_section_intro_description {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+#about_nav {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#about_nav a.active {
+    color: #fff;
+    /*border-left:4px solid #FD5F00;*/
+    background: #FD5F00;
+}
+
+.about_section_story_title {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about_section_story_detail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////// Work page CSS ///////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#work_section_main_margin {
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.work_section_project_details {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.work_section_project_details>h4 {
+    line-height: 28px;
+}
+
+#image_first {
+    margin-top: 20px;
+}
+
+#image_last {
+    margin-top: 10px;
+}
+
+.project_images {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#subscribe_social_work {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#disqus_thread {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EBEEEF;
+    margin-bottom: -1px;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////// footer_main section CSS //////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#footer_main {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 12px;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 10px;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*/////////  MEDIA QUERIES  /////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 1200px - 900px ///////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 1200px) and (min-width: 900px) {
+    #about_section_intro_name {
+        font-size: 45px;
+    }
+    #about_section_intro_description {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 1050px - 900px ///////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 1050px) and (min-width: 900px) {
+    #feature_section {
+        height: 140px;
+    }
+    .feature_logos {
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    #about_section_intro_ss_image {
+        height: 670px;
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 899px - 750px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 899px) and (min-width: 750px) {
+    #feature_section {
+        height: 120px;
+    }
+    .feature_logos {
+        width: 90px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    #work_section_main_margin {
+        margin-top: 20px;
+    }
+    .work_section_project_details>h4 {
+        font-size: 16px;
+    }
+    #about_section_intro_ss_image {
+        height: 540px;
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 749px - 600px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 749px) and (min-width: 600px) {
+    .navbar-default .navbar-brand {
+        padding-left: 15px;
+    }
+    #feature_section {
+        height: 100px;
+    }
+    .feature_logos {
+        width: 80px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    #work_section {
+        width: 95%;
+    }
+    #work_section_main_margin {
+        margin-top: 10px;
+    }
+    .work_section_project_details>h4 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    #about_section_intro_ss_image {
+        height: 600px;
+        margin-top: -80px;
+        margin-bottom: 25px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 899px - 600px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 899px) and (min-width: 600px) {
+    #index_do_more_element_whole {
+        margin-top: -200px;
+    }
+    #index_do_more_text_extra {
+        font-size: 30px;
+        letter-spacing: -1px;
+        padding-top: 80px;
+    }
+    #index_do_more_text {
+        font-size: 93px;
+        letter-spacing: -4px;
+        top: -34px;
+    }
+    #index_do_more_text_tweet {
+        left: 167px;
+        top: -63px;
+    }
+    #about_section_intro_name {
+        font-size: 40px;
+    }
+    #about_section_intro_description {
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .about_section_story_detail {
+        font-size: 18px;
+    }
+    #footer_main {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 599px - 500px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 599px) and (min-width: 500px) {
+    .navbar-default .navbar-brand {
+        padding-left: 15px;
+    }
+    #feature_section {
+        height: 80px;
+    }
+    .feature_logos {
+        width: 70px;
+        margin-top: 10px;
+    }
+    #work_section {
+        width: 90%;
+    }
+    #work_section_main_margin {
+        margin-top: 0px;
+    }
+    .work_section_project_details>h4 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    #about_section_intro_ss_image {
+        height: 470px;
+        margin-top: -80px;
+        margin-bottom: 25px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 499px - 400px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 499px) and (min-width: 400px) {
+    .navbar-default .navbar-brand {
+        padding-left: 15px;
+    }
+    #feature_section {
+        height: 80px;
+    }
+    .feature_logos {
+        width: 70px;
+        margin-top: 7px;
+    }
+    #work_section {
+        width: 95%;
+    }
+    #work_section_main_margin {
+        margin-top: 0px;
+    }
+    .work_section_project_details>h4 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    #about_section_intro_ss_image {
+        height: 420px;
+        margin-top: -70px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 599px - 450px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 599px) and (min-width: 450px) {
+    #index_do_more_element_whole {
+        margin-top: -185px;
+    }
+    #index_do_more_text_extra {
+        font-size: 24px;
+        letter-spacing: -1px;
+        padding-top: 80px;
+    }
+    #index_do_more_text {
+        font-size: 77px;
+        letter-spacing: -6px;
+        top: -26px;
+    }
+    #index_do_more_text_tweet {
+        left: 118px;
+        top: -51px;
+    }
+    #about_section_intro_name {
+        font-size: 32px;
+    }
+    #about_section_intro_description {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .about_section_story_title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .about_section_story_detail {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    #footer_main {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 449px - 300px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 449px) and (min-width: 300px) {
+    #index_do_more_element_whole {
+        margin-top: -200px;
+    }
+    #index_do_more_text_extra {
+        font-size: 15px;
+        letter-spacing: 0px;
+        padding-top: 80px;
+    }
+    #index_do_more_text {
+        font-size: 52px;
+        letter-spacing: -4px;
+        top: -16px;
+    }
+    #index_do_more_text_tweet {
+        left: 74px;
+        top: -30px;
+    }
+    #index_do_more_text_tweet_icon {
+        font-size: 15px;
+    }
+    #index_do_more_text_tweet_text {
+        font-size: 15px;
+    }
+    #about_section_intro_name {
+        font-size: 26px;
+        margin-bottom: 3px;
+    }
+    #about_section_intro_description {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 9px;
+        margin-bottom: 20px;
+    }
+    .about_section_story_title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .about_section_story_detail {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #footer_main {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 399px - 0px //////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 399px) and (min-width: 0px) {
+    .navbar-default .navbar-brand {
+        padding-left: 15px;
+    }
+    #feature_section {
+        height: 80px;
+    }
+    .feature_logos {
+        width: 70px;
+        margin-top: 7px;
+    }
+    #work_section {
+        width: 98%;
+    }
+    #work_section_main_margin {
+        margin-top: 0px;
+    }
+    .work_section_project_details>h4 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    #about_section_intro_ss_image {
+        height: 420px;
+        margin-top: -70px;
+        margin-bottom: 20px;
+    }
+    #about_section_intro_name {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    #about_section_intro_description {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 767px - 0px //////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 767px) and (min-width: 0px) {
+    .navbar .container-fluid {
+        padding-top: 1px;
+    }
+    .nav_links {
+        margin-left: 2px;
+    }
+    #nav_links_social {
+        margin-left: -22px !important;
+    }
+    #feature_section {
+        bottom: -5px;
+    }
+}
