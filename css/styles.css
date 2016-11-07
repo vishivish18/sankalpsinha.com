@@ -7,8 +7,8 @@
 /*///////////////////////////////////////*/
 
 
-/*	Author:  Sankalp Sinha
-	Updated: February 2015
+/*  Author:  Sankalp Sinha
+    Updated: February 2015
 /////////////////////////////////////////*/
 
 
@@ -175,12 +175,6 @@ body {
 
 /*///////////////////////////////////////*/
 
-#main_top {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .header {
     width: 100%;
     z-index: 100000000;
@@ -195,13 +189,13 @@ body {
 }
 
 .navbar .container-fluid {
-    background-color: #fff;
+    background-color:transparent;
     padding-top: 6px;
     padding-bottom: 10px;
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color:transparent;
     box-shadow: none;
     -webkit-box-shadow: none;
     border: none;
@@ -209,8 +203,8 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Raleway;
-    font-weight: 700;
+    font-family: Montserrat;
+    font-weight: 400;
     color: #000;
     padding-left: 30px;
 }
@@ -348,6 +342,14 @@ body {
 
 /*///////////////////////////////////////*/
 
+#main_top_landing {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url("../images/landing_back.png");
+    background-size: 100%;
+}
+
 #index_hero_section {
     height: calc(100vh - 70px);
     background-size: cover;
@@ -363,21 +365,21 @@ body {
 }
 
 #index_do_more_text_extra {
-    font-family: Raleway;
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 34px;
     letter-spacing: -0.3;
-    color: #000;
+    color: #fff;
 }
 
 #index_do_more_text {
-    font-family: Raleway;
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 110px;
     letter-spacing: -4px;
     top: -40px;
     position: relative;
-    color: #000;
+    color: #fff;
 }
 
 #index_do_more_text_tweet {
@@ -387,15 +389,15 @@ body {
 }
 
 #index_do_more_text_tweet_icon {
-    color: #cacaca;
+    color: rgba(255,255,255,0.40);
     font-size: 20px;
 }
 
 #index_do_more_text_tweet_text {
-    font-family: Raleway;
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 20px;
-    color: cacaca;
+    color: rgba(255,255,255,0.40);
 }
 
 
