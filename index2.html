@@ -17,7 +17,7 @@
     <!-- Responsive carousel include -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- Custom CSS include -->
-    <link href="css/styles_backup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <!-- Latest compiled and minified JavaScript inlcude -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -99,6 +99,13 @@
     app.include(app.getId('header'), "header")
     </script>
     <style type="text/css">
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+    
     #go_to_top_icon {
         display: none;
     }
@@ -119,7 +126,9 @@
         <div id="header"></div>
         <!-- #Hero section start -->
         <div align="center" class="row" id="index_hero_section">
-            <div class="text-center">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-8">
                 <div id="index_do_more_element_whole">
                     <div id="index_do_more_text_extra">
                         &nbsp; SMILE. LOVE. HELP. LIVE. INSPIRE.
@@ -128,16 +137,32 @@
                         #D<span id="index_do_more_text_gap">&nbsp;</span>O MORE
                     </div>
                     <a href="https://twitter.com/intent/tweet?screen_name=sankalpdomore&text=SMILE.%20LOVE.%20HELP.%20LIVE.%20INSPIRE.%20DOMORE." style="text-decoration:none;">
-                        <span id="index_do_more_text_tweet">
-                                <i class="fa fa-twitter" id="index_do_more_text_tweet_icon"></i> <span id="index_do_more_text_tweet_text">tweet this motto out</span>
-                        </span>
+                        <div id="index_do_more_text_tweet">
+                            <i class="fa fa-twitter" id="index_do_more_text_tweet_icon"></i> <span id="index_do_more_text_tweet_text">tweet this motto out</span>
+                        </div>
                     </a>
-                </div>
-                <div class="button">
-                    Know More
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <a href="http://www.sankalpsinha.com/about/">
+                                <div class="col-lg-6">
+                                    <span class="index_do_more_button">
+                                    Know more
+                                </span>
+                                </div>
+                            </a>
+                            <a href="http://www.sankalpsinha.com/projects/">
+                                <div class="col-lg-6">
+                                    <span class="index_do_more_button">
+                                    See all projects
+                                </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- col-12 class end-->
+            <div class="col-lg-3">
+            </div>
         </div>
         <!-- #Hero section end -->
     </div>
