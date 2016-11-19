@@ -80,6 +80,10 @@ a:active {
     text-decoration: none;
 }
 
+.overall-padding {
+    padding: 0px
+}
+
 
 /*/////////////////////////////////////////////////////////*/
 
@@ -196,6 +200,7 @@ a:active {
     left: 0px;
     position: relative;
     border-top: 4px solid #FD5F00;
+
 }
 
 .navbar-toggle {
@@ -359,38 +364,37 @@ a:active {
 /*///////// Index body CSS //////////////*/
 
 
-/*////////  calc(50% - 30%) /////////////*/
-
-
 /*///////////////////////////////////////*/
 
 
 /*///////////////////////////////////////*/
 
-#main_top_landing {
+#landing_top {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     background-image: url("../images/landing_back.png");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#index_hero_section {
+#landing_hero_section {
     height: calc(100vh - 70px);
     background-size: cover;
     position: relative;
-    padding-right: 210px;
+    
     padding-top: 150px;
+    margin: 0px;
 }
 
-#index_do_more_element_whole {
+#landing_do_more_element_whole {
     margin: 0px 0 0 0px;
 }
 
-#index_do_more_text_extra {
+#landing_do_more_text_extra {
     font-family: Montserrat-Regular;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 36px;
     letter-spacing: 0.5;
     color: #fff;
     margin-left: -10px;
@@ -398,22 +402,22 @@ a:active {
     position: relative;
 }
 
-#index_do_more_text {
+#landing_do_more_text {
     font-family: Montserrat-Regular;
     font-weight: 700;
-    font-size: 111px;
+    font-size: 114px;
     letter-spacing: -4px;
-    top: -40px;
+    top: -42px;
     position: relative;
     color: #fff;
 }
 
-#index_do_more_text_gap {
+#landing_do_more_text_gap {
     font-size: 0px;
     margin-left: 5px;
 }
 
-#index_do_more_text_tweet {
+#landing_do_more_text_tweet {
     margin-top: -70px;
     margin-left: 370px;
     margin-bottom: 50px;
@@ -421,22 +425,22 @@ a:active {
     position: relative;
 }
 
-#index_do_more_text_tweet:hover #index_do_more_text_tweet_icon {
+#landing_do_more_text_tweet:hover #landing_do_more_text_tweet_icon {
     color: #fff;
     transition: color 0.5s ease;
 }
 
-#index_do_more_text_tweet:hover #index_do_more_text_tweet_text {
+#landing_do_more_text_tweet:hover #landing_do_more_text_tweet_text {
     color: #fff;
     transition: color 0.5s ease;
 }
 
-#index_do_more_text_tweet_icon {
+#landing_do_more_text_tweet_icon {
     color: rgba(255, 255, 255, 0.40);
     font-size: 20px;
 }
 
-#index_do_more_text_tweet_text {
+#landing_do_more_text_tweet_text {
     font-family: Montserrat-Regular;
     font-weight: 700;
     font-size: 20px;
@@ -654,7 +658,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*//////// Between 1200px - 900px ///////*/
+/*// Between 1400px - 1199(1200)px - LG//*/
 
 
 /*///////////////////////////////////////*/
@@ -662,7 +666,44 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-@media (max-width: 1200px) and (min-width: 900px) {
+@media (max-width: 1400px) and (min-width: 1199px) {}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///// Between 1200px - 992px - MD /////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    #landing_hero_section {
+        padding-top: 120px;
+    }
+    #landing_do_more_text_extra {
+        font-size: 30px;
+    }
+    #landing_do_more_text {
+        font-size: 96px;
+            top: -36px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -62px;
+        margin-left: 320px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 17px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 17px;
+    }
     #about_section_intro_name {
         font-size: 45px;
     }
@@ -688,6 +729,9 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 1050px) and (min-width: 900px) {
+    #landing_hero_section {
+        padding-top: 100px;
+    }
     #feature_section {
         height: 140px;
     }
@@ -710,7 +754,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*//////// Between 899px - 750px ////////*/
+/*////// Between 991px - 768px - SM /////*/
 
 
 /*///////////////////////////////////////*/
@@ -718,7 +762,30 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-@media (max-width: 899px) and (min-width: 750px) {
+@media (max-width: 991px) and (min-width: 768px) {
+    #landing_do_more_text_extra {
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
+    #landing_do_more_text {
+        font-size: 73px;
+        letter-spacing: -3px;
+        top: -27px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -47px;
+        margin-left: 190px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 17px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 17px;
+    }
+    .index_do_more_button {
+        font-size: 16px;
+        letter-spacing: 0.3px;
+    }
     #feature_section {
         height: 120px;
     }
@@ -747,7 +814,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*//////// Between 749px - 600px ////////*/
+/*////// Between 991px - 850px - SM /////*/
 
 
 /*///////////////////////////////////////*/
@@ -755,9 +822,158 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-@media (max-width: 749px) and (min-width: 600px) {
+@media (max-width: 991px) and (min-width: 850px) {
+    #landing_hero_section {
+        padding-top: 90px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*////// Between 849px - 768px - SM /////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 849px) and (min-width: 768px) {
+    #landing_hero_section {
+        padding-top: 60px;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*////// Between 780px - 0px ///////////*/
+
+
+/*//For opening Menu toggle at 780 px //*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 780px) and (min-width: 0px) {
     .navbar-default .navbar-brand {
         padding-left: 15px;
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .navbar .container-fluid {
+        padding-top: 1px;
+    }
+    .nav_links {
+        margin-left: 2px;
+    }
+    #nav_links_social {
+        margin-left: -22px !important;
+    }
+    #feature_section {
+        bottom: -5px;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*//////// Between 767px - 600px ////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+@media (max-width: 767px) and (min-width: 600px) {
+    #landing_top {
+        background-size: 170%;
+        background-position-x: -250px;
+        background-image: url("../images/landing_back2.png");
+    }
+    #landing_hero_section {
+        padding-top: 200px;
+    }
+    #landing_do_more_text_extra {
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    #landing_do_more_text {
+        font-size: 86px;
+        letter-spacing: -3px;
+        top: -31px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -54px;
+        margin-left: 270px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 17px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 17px;
+    }
+    .index_do_more_button {
+        font-size: 16px;
+        letter-spacing: 0.3px;
     }
     #feature_section {
         height: 100px;
@@ -791,7 +1007,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*//////// Between 899px - 600px ////////*/
+/*//////// Between 991px - 600px ////////*/
 
 
 /*///////////////////////////////////////*/
@@ -800,23 +1016,6 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 899px) and (min-width: 600px) {
-    #index_do_more_element_whole {
-        margin-top: -200px;
-    }
-    #index_do_more_text_extra {
-        font-size: 30px;
-        letter-spacing: -1px;
-        padding-top: 80px;
-    }
-    #index_do_more_text {
-        font-size: 93px;
-        letter-spacing: -4px;
-        top: -34px;
-    }
-    #index_do_more_text_tweet {
-        left: 167px;
-        top: -63px;
-    }
     #about_section_intro_name {
         font-size: 40px;
     }
@@ -851,6 +1050,37 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 599px) and (min-width: 500px) {
+    #landing_top {
+        background-size: 170%;
+        background-position-x: -250px;
+        background-image: url("../images/landing_back2.png");
+    }
+    #landing_hero_section {
+        padding-top: 200px;
+    }
+    #landing_do_more_text_extra {
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    #landing_do_more_text {
+        font-size: 86px;
+        letter-spacing: -3px;
+        top: -31px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -54px;
+        margin-left: 270px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 17px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 17px;
+    }
+    .index_do_more_button {
+        font-size: 16px;
+        letter-spacing: 0.3px;
+    }
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
@@ -937,20 +1167,20 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 599px) and (min-width: 450px) {
-    #index_do_more_element_whole {
+    #landing_do_more_element_whole {
         margin-top: -185px;
     }
-    #index_do_more_text_extra {
+    #landing_do_more_text_extra {
         font-size: 24px;
         letter-spacing: -1px;
         padding-top: 80px;
     }
-    #index_do_more_text {
+    #landing_do_more_text {
         font-size: 77px;
         letter-spacing: -6px;
         top: -26px;
     }
-    #index_do_more_text_tweet {
+    #landing_do_more_text_tweet {
         left: 118px;
         top: -51px;
     }
@@ -993,27 +1223,27 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 449px) and (min-width: 300px) {
-    #index_do_more_element_whole {
+    #landing_do_more_element_whole {
         margin-top: -200px;
     }
-    #index_do_more_text_extra {
+    #landing_do_more_text_extra {
         font-size: 15px;
         letter-spacing: 0px;
         padding-top: 80px;
     }
-    #index_do_more_text {
+    #landing_do_more_text {
         font-size: 52px;
         letter-spacing: -4px;
         top: -16px;
     }
-    #index_do_more_text_tweet {
+    #landing_do_more_text_tweet {
         left: 74px;
         top: -30px;
     }
-    #index_do_more_text_tweet_icon {
+    #landing_do_more_text_tweet_icon {
         font-size: 15px;
     }
-    #index_do_more_text_tweet_text {
+    #landing_do_more_text_tweet_text {
         font-size: 15px;
     }
     #about_section_intro_name {
@@ -1107,17 +1337,4 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-@media (max-width: 767px) and (min-width: 0px) {
-    .navbar .container-fluid {
-        padding-top: 1px;
-    }
-    .nav_links {
-        margin-left: 2px;
-    }
-    #nav_links_social {
-        margin-left: -22px !important;
-    }
-    #feature_section {
-        bottom: -5px;
-    }
-}
+@media (max-width: 767px) and (min-width: 0px) {}
