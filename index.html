@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Sankalp Sinha, 23 yrs old, a self-taught designer, showcasing his design and non-design projects.">
     <meta name="keywords" content="Product-Design, Graphic-Design, Identity-Design, Concept-Product-Design, Designer, Mad-Scientist-Lab ">
+    <meta name="theme-color" content="#333" />
     <!-- Mobile viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="icon" href="images/favicon.ico" type="favicon.ico" />
@@ -17,7 +18,7 @@
     <!-- Responsive carousel include -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- Custom CSS include -->
-    <link href="css/styles_backup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <!-- Latest compiled and minified JavaScript inlcude -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -99,6 +100,13 @@
     app.include(app.getId('header'), "header")
     </script>
     <style type="text/css">
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+    
     #go_to_top_icon {
         display: none;
     }
@@ -115,29 +123,67 @@
 
 <body>
     <!-- #Main-top DIV start -->
-    <div class="container" id="main_top_landing">
+    <div class="container" id="landing_top">
         <div id="header"></div>
         <!-- #Hero section start -->
-        <div align="center" class="row" id="index_hero_section">
-            <div class="text-center">
-                <div id="index_do_more_element_whole">
-                    <div id="index_do_more_text_extra">
-                        &nbsp; SMILE. LOVE. HELP. LIVE. INSPIRE.
-                    </div>
-                    <div id="index_do_more_text">
-                        #D<span id="index_do_more_text_gap">&nbsp;</span>O MORE
-                    </div>
-                    <a href="https://twitter.com/intent/tweet?screen_name=sankalpdomore&text=SMILE.%20LOVE.%20HELP.%20LIVE.%20INSPIRE.%20DOMORE." style="text-decoration:none;">
-                        <span id="index_do_more_text_tweet">
-                                <i class="fa fa-twitter" id="index_do_more_text_tweet_icon"></i> <span id="index_do_more_text_tweet_text">tweet this motto out</span>
-                        </span>
-                    </a>
+        <div align="center" class="row" id="landing_hero_section">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overall-padding">
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
                 </div>
-                <div class="button">
-                    Know More
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 overall-padding">
+                    <div id="landing_do_more_element_whole">
+                        <div id="landing_do_more_text_extra">
+                            &nbsp; SMILE. LOVE. HELP. LIVE. INSPIRE.
+                        </div>
+                        <div id="landing_do_more_text">
+                            #D<span id="landing_do_more_text_gap">&nbsp;</span>O MORE
+                        </div>
+                        <a href="https://twitter.com/intent/tweet?screen_name=sankalpdomore&text=SMILE.%20LOVE.%20HELP.%20LIVE.%20INSPIRE.%20DOMORE." style="text-decoration:none;">
+                            <div id="landing_do_more_text_tweet">
+                                <i class="fa fa-twitter" id="landing_do_more_text_tweet_icon"></i> <span id="landing_do_more_text_tweet_text">tweet this motto out</span>
+                            </div>
+                        </a>
+                        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 landing_do_more_buttons_xs_1">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overall-padding">
+                                <a href="http://www.sankalpsinha.com/about/">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <span class="landing_do_more_buttons">
+                                            Explore Sankalp
+                                            <!-- Know more -->
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="http://www.sankalpsinha.com/projects/">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <span class="landing_do_more_buttons">
+                                            See all projects
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-xs-offset-1 landing_do_more_buttons_xs_2">
+                            <a href="http://www.sankalpsinha.com/about/">
+                                <div class="col-xs-12">
+                                    <span class="landing_do_more_buttons">
+                                        Explore Sankalp
+                                        <!-- &nbsp;&nbsp;&nbsp;&nbsp;Know more&nbsp;&nbsp;&nbsp;&nbsp; -->
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="http://www.sankalpsinha.com/projects/">
+                                <div class="col-xs-12">
+                                    <span class="landing_do_more_buttons">
+                                        See all projects
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-0">
                 </div>
             </div>
-            <!-- col-12 class end-->
         </div>
         <!-- #Hero section end -->
     </div>

@@ -195,12 +195,13 @@ a:active {
 
 .header {
     width: 100%;
+    height: 190px;
     z-index: 100000000;
     top: 0px !important;
     left: 0px;
     position: relative;
     border-top: 4px solid #FD5F00;
-
+    background-image: url("../images/menubar_back.png");
 }
 
 .navbar-toggle {
@@ -379,16 +380,17 @@ a:active {
 }
 
 #landing_hero_section {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 190px);
     background-size: cover;
     position: relative;
-    
-    padding-top: 150px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 #landing_do_more_element_whole {
-    margin: 0px 0 0 0px;
+    margin-top: 50px;
+    margin-left: -40px;
 }
 
 #landing_do_more_text_extra {
@@ -448,7 +450,7 @@ a:active {
     color: rgba(255, 255, 255, 0.40);
 }
 
-.index_do_more_button {
+.landing_do_more_buttons {
     font-family: Montserrat-Semibold;
     color: #fff;
     font-size: 20px;
@@ -457,11 +459,19 @@ a:active {
     border: solid 3px #ffffff;
 }
 
-.index_do_more_button:hover {
+.landing_do_more_buttons:hover {
     cursor: pointer;
     color: #FD5F00;
     background-color: #fff;
     transition: color 0.2s ease;
+}
+
+.landing_do_more_buttons_xs_1 {
+    display: block;
+}
+
+.landing_do_more_buttons_xs_2 {
+    display: none;
 }
 
 
@@ -684,15 +694,16 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 1200px) and (min-width: 992px) {
-    #landing_hero_section {
-        padding-top: 120px;
+    #landing_hero_section {}
+    #landing_do_more_element_whole {
+        margin-top: 40px;
     }
     #landing_do_more_text_extra {
         font-size: 30px;
     }
     #landing_do_more_text {
         font-size: 96px;
-            top: -36px;
+        top: -36px;
     }
     #landing_do_more_text_tweet {
         margin-top: -62px;
@@ -729,9 +740,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 1050px) and (min-width: 900px) {
-    #landing_hero_section {
-        padding-top: 100px;
-    }
+    #landing_hero_section {}
     #feature_section {
         height: 140px;
     }
@@ -782,7 +791,7 @@ a:active {
     #landing_do_more_text_tweet_text {
         font-size: 17px;
     }
-    .index_do_more_button {
+    .landing_do_more_buttons {
         font-size: 16px;
         letter-spacing: 0.3px;
     }
@@ -823,8 +832,8 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 991px) and (min-width: 850px) {
-    #landing_hero_section {
-        padding-top: 90px;
+    #landing_do_more_element_whole {
+        margin-top: 0px;
     }
 }
 
@@ -844,8 +853,8 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 849px) and (min-width: 768px) {
-    #landing_hero_section {
-        padding-top: 60px;
+    #landing_do_more_element_whole {
+        margin-top: -30px;
     }
 }
 
@@ -945,12 +954,14 @@ a:active {
 
 @media (max-width: 767px) and (min-width: 600px) {
     #landing_top {
-        background-size: 170%;
-        background-position-x: -250px;
+        background-size: 100%;
+        background-position-x: 0px;
+        background-position-y: -50px;
         background-image: url("../images/landing_back2.png");
     }
-    #landing_hero_section {
-        padding-top: 200px;
+    #landing_do_more_element_whole {
+        margin-top: 0px;
+        margin-left: 0px;
     }
     #landing_do_more_text_extra {
         font-size: 28px;
@@ -971,7 +982,7 @@ a:active {
     #landing_do_more_text_tweet_text {
         font-size: 17px;
     }
-    .index_do_more_button {
+    .landing_do_more_buttons {
         font-size: 16px;
         letter-spacing: 0.3px;
     }
@@ -1051,25 +1062,27 @@ a:active {
 
 @media (max-width: 599px) and (min-width: 500px) {
     #landing_top {
-        background-size: 170%;
-        background-position-x: -250px;
+        background-size: 100%;
+        background-position-x: 0px;
+        background-position-y: -20px;
         background-image: url("../images/landing_back2.png");
     }
-    #landing_hero_section {
-        padding-top: 200px;
+    #landing_do_more_element_whole {
+        margin-top: -30px;
+        margin-left: 0px;
     }
     #landing_do_more_text_extra {
-        font-size: 28px;
-        letter-spacing: 0px;
+        font-size: 22px;
+        letter-spacing: 0.5px;
     }
     #landing_do_more_text {
-        font-size: 86px;
+        font-size: 71px;
         letter-spacing: -3px;
-        top: -31px;
+        top: -26px;
     }
     #landing_do_more_text_tweet {
-        margin-top: -54px;
-        margin-left: 270px;
+        margin-top: -46px;
+        margin-left: 168px;
     }
     #landing_do_more_text_tweet_icon {
         font-size: 17px;
@@ -1077,7 +1090,7 @@ a:active {
     #landing_do_more_text_tweet_text {
         font-size: 17px;
     }
-    .index_do_more_button {
+    .landing_do_more_buttons {
         font-size: 16px;
         letter-spacing: 0.3px;
     }
@@ -1124,6 +1137,42 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 499px) and (min-width: 400px) {
+    #landing_top {
+        background-size: 100%;
+        background-position-x: 0px;
+        background-position-y: -10px;
+        background-image: url("../images/landing_back2.png");
+    }
+    #landing_do_more_element_whole {
+        margin-top: -40px;
+        margin-left: 0px;
+    }
+    #landing_do_more_text_extra {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    #landing_do_more_text {
+        font-size: 57px;
+        letter-spacing: -2px;
+        top: -20px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -37px;
+        margin-left: 132px;
+        margin-bottom: 40px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 15px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 15px;
+    }
+    .landing_do_more_buttons {
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        padding: 10px 18px;
+        margin-left: -13px;
+    }
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
@@ -1167,23 +1216,6 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 599px) and (min-width: 450px) {
-    #landing_do_more_element_whole {
-        margin-top: -185px;
-    }
-    #landing_do_more_text_extra {
-        font-size: 24px;
-        letter-spacing: -1px;
-        padding-top: 80px;
-    }
-    #landing_do_more_text {
-        font-size: 77px;
-        letter-spacing: -6px;
-        top: -26px;
-    }
-    #landing_do_more_text_tweet {
-        left: 118px;
-        top: -51px;
-    }
     #about_section_intro_name {
         font-size: 32px;
     }
@@ -1223,29 +1255,6 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 449px) and (min-width: 300px) {
-    #landing_do_more_element_whole {
-        margin-top: -200px;
-    }
-    #landing_do_more_text_extra {
-        font-size: 15px;
-        letter-spacing: 0px;
-        padding-top: 80px;
-    }
-    #landing_do_more_text {
-        font-size: 52px;
-        letter-spacing: -4px;
-        top: -16px;
-    }
-    #landing_do_more_text_tweet {
-        left: 74px;
-        top: -30px;
-    }
-    #landing_do_more_text_tweet_icon {
-        font-size: 15px;
-    }
-    #landing_do_more_text_tweet_text {
-        font-size: 15px;
-    }
     #about_section_intro_name {
         font-size: 26px;
         margin-bottom: 3px;
@@ -1286,6 +1295,49 @@ a:active {
 /*///////////////////////////////////////*/
 
 @media (max-width: 399px) and (min-width: 0px) {
+    #landing_top {
+        background-size: 170%;
+        background-position-x: -130px;
+        background-position-y: -20px;
+        background-image: url("../images/landing_back2.png");
+    }
+    #landing_do_more_element_whole {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #landing_do_more_text_extra {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    #landing_do_more_text {
+        font-size: 48px;
+        letter-spacing: -2px;
+        top: -18px;
+    }
+    #landing_do_more_text_tweet {
+        margin-top: -32px;
+        margin-left: 82px;
+        margin-bottom: 20px;
+    }
+    #landing_do_more_text_tweet_icon {
+        font-size: 15px;
+    }
+    #landing_do_more_text_tweet_text {
+        font-size: 15px;
+    }
+    .landing_do_more_buttons {
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        padding: 10px 18px;
+        margin-left: -13px;
+        line-height: 60px;
+    }
+    .landing_do_more_buttons_xs_1 {
+        display: none;
+    }
+    .landing_do_more_buttons_xs_2 {
+        display: block;
+    }
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
@@ -1329,7 +1381,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*//////// Between 767px - 0px //////////*/
+/*///// Between height 380px - 0px //////*/
 
 
 /*///////////////////////////////////////*/
@@ -1337,4 +1389,8 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-@media (max-width: 767px) and (min-width: 0px) {}
+@media (max-height: 380px) and (min-height: 0px) {
+    #landing_hero_section {
+        height: calc(100vh - 0px);
+    }
+}
