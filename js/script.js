@@ -64,16 +64,16 @@ $(document).ready(function() {
                 items: 6
             },
             1200: {
-                items: 8
+                items: 5
             },
             1400: {
-                items: 8
+                items: 6
             },
             1600: {
-                items: 9
+                items: 7
             },
             1800: {
-                items: 9
+                items: 8
             },
             2000: {
                 items: 10

@@ -482,35 +482,6 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*/////// Feature section CSS ///////////*/
-
-
-/*///////////////////////////////////////*/
-
-
-/*///////////////////////////////////////*/
-
-#feature_section {
-    height: 105px;
-    background-color: #f5f5f5;
-    width: 100%;
-    bottom: 0px;
-    position: absolute;
-}
-
-.feature_logos {
-    width: 95px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-
-/*///////////////////////////////////////*/
-
-
-/*///////////////////////////////////////*/
-
-
 /*////////// About page CSS /////////////*/
 
 
@@ -520,8 +491,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 #about_section {
-    padding: 0px;
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 #about_section_intro_ss_image {
@@ -568,6 +538,7 @@ a:active {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -577,7 +548,7 @@ a:active {
 /*///////////////////////////////////////*/
 
 
-/*///////// Work page CSS ///////////////*/
+/*///// Project Main Page CSS ///////////*/
 
 
 /*///////////////////////////////////////*/
@@ -585,43 +556,77 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-#work_section_main_margin {
+#projects_section {
+    width: 100%;
+    padding: 0px;
+    background-color: #F7F7F7;
+}
+
+.projects_section_feature_section_title {
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    color: #cccccc;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-top: 60px;
+}
+
+#projects_section_feature_section {
+    height: 105px;
+    width: 100%;
+}
+
+.projects_section_feature_section_logos {
+    width: 95px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*/// Project Case Study Page CSS ///////*/
+
+
+/*///////////////////////////////////////*/
+
+
+/*///////////////////////////////////////*/
+
+#projects_section_case_study_main_margin {
     margin-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.work_section_project_details {
+.projects_section_case_study_project_details {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.work_section_project_details>h4 {
+.projects_section_case_study_project_details>h4 {
     line-height: 28px;
 }
 
-#image_first {
+#projects_section_case_study_image_first {
     margin-top: 20px;
 }
 
-#image_last {
+#projects_section_case_study_image_last {
     margin-top: 10px;
 }
 
-.project_images {
+.projects_section_case_study_images {
     width: 100%;
     margin-top: 20px;
 }
 
-#subscribe_social_work {
+#projects_section_case_study_subscribe_social_work {
     text-align: center;
     margin-bottom: 50px;
-}
-
-#disqus_thread {
-    padding-bottom: 10px;
-    border-bottom: 2px solid #EBEEEF;
-    margin-bottom: -1px;
 }
 
 
@@ -742,10 +747,10 @@ a:active {
 
 @media (max-width: 1050px) and (min-width: 900px) {
     #landing_hero_section {}
-    #feature_section {
+    #projects_section_feature_section {
         height: 140px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 100px;
         margin-top: 20px;
         margin-left: 50px;
@@ -797,18 +802,18 @@ a:active {
         letter-spacing: 0.3px;
         padding: 12px 17px;
     }
-    #feature_section {
+    #projects_section_feature_section {
         height: 120px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 90px;
         margin-top: 20px;
         margin-left: 50px;
     }
-    #work_section_main_margin {
+    #projects_section_case_study_main_margin {
         margin-top: 20px;
     }
-    .work_section_project_details>h4 {
+    .projects_section_case_study_project_details>h4 {
         font-size: 16px;
     }
     #about_section_intro_ss_image {
@@ -899,7 +904,7 @@ a:active {
     #nav_links_social {
         margin-left: -22px !important;
     }
-    #feature_section {
+    #projects_section_feature_section {
         bottom: -5px;
     }
     .navbar-header {
@@ -989,21 +994,21 @@ a:active {
         letter-spacing: 0.3px;
         padding: 12px 18px;
     }
-    #feature_section {
+    #projects_section_feature_section {
         height: 100px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 80px;
         margin-top: 10px;
         margin-left: 30px;
     }
-    #work_section {
+    #projects_section_case_study {
         width: 95%;
     }
-    #work_section_main_margin {
+    #projects_section_case_study_main_margin {
         margin-top: 10px;
     }
-    .work_section_project_details>h4 {
+    .projects_section_case_study_project_details>h4 {
         line-height: 24px;
         font-size: 14px;
     }
@@ -1101,20 +1106,20 @@ a:active {
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
-    #feature_section {
+    #projects_section_feature_section {
         height: 80px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 70px;
         margin-top: 10px;
     }
-    #work_section {
+    #projects_section_case_study {
         width: 90%;
     }
-    #work_section_main_margin {
+    #projects_section_case_study_main_margin {
         margin-top: 0px;
     }
-    .work_section_project_details>h4 {
+    .projects_section_case_study_project_details>h4 {
         line-height: 24px;
         font-size: 14px;
     }
@@ -1180,20 +1185,20 @@ a:active {
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
-    #feature_section {
+    #projects_section_feature_section {
         height: 80px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 70px;
         margin-top: 7px;
     }
-    #work_section {
+    #projects_section_case_study {
         width: 95%;
     }
-    #work_section_main_margin {
+    #projects_section_case_study_main_margin {
         margin-top: 0px;
     }
-    .work_section_project_details>h4 {
+    .projects_section_case_study_project_details>h4 {
         line-height: 24px;
         font-size: 14px;
     }
@@ -1345,20 +1350,20 @@ a:active {
     .navbar-default .navbar-brand {
         padding-left: 15px;
     }
-    #feature_section {
+    #projects_section_feature_section {
         height: 80px;
     }
-    .feature_logos {
+    .projects_section_feature_section_logos {
         width: 70px;
         margin-top: 7px;
     }
-    #work_section {
+    #projects_section_case_study {
         width: 98%;
     }
-    #work_section_main_margin {
+    #projects_section_case_study_main_margin {
         margin-top: 0px;
     }
-    .work_section_project_details>h4 {
+    .projects_section_case_study_project_details>h4 {
         line-height: 24px;
         font-size: 14px;
     }
