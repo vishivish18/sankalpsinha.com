@@ -556,13 +556,13 @@ a:active {
 
 /*///////////////////////////////////////*/
 
-#projects_section {
+#projects_page {
     width: 100%;
     padding: 0px;
     background-color: #F7F7F7;
 }
 
-.projects_section_feature_section_title {
+.projects_page_feature_section_title {
     font-family: Montserrat-Regular;
     font-size: 22px;
     color: #cccccc;
@@ -570,31 +570,45 @@ a:active {
     margin-top: 60px;
 }
 
-#projects_section_feature_section {
+#projects_page_feature_section {
     height: 105px;
     width: 100%;
 }
 
-.projects_section_feature_section_logos {
+.projects_page_feature_section_logos {
     width: 95px;
     margin-top: 10px;
     margin-left: 20px;
 }
 
+.projects_page_projects_title {
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    color: #cccccc;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-top: 60px;
+}
 
-/*///////////////////////////////////////*/
+.projects_page_projects_section {
+    margin-bottom: 60px;
+}
 
+.projects_page_projects_section_div {
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
 
-/*///////////////////////////////////////*/
-
-
-/*/// Project Case Study Page CSS ///////*/
-
-
-/*///////////////////////////////////////*/
-
-
-/*///////////////////////////////////////*/
+.projects_page_projects_section_logos {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 0px 0px #dddddd;
+    border: solid 1px #dddddd;
+}
 
 #projects_section_case_study_main_margin {
     margin-top: 30px;
