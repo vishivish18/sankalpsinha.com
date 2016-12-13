@@ -596,18 +596,25 @@ a:active {
 .projects_page_projects_section_div {
     padding-right: 15px;
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 13px;
     padding-bottom: 5px;
     text-align: center;
 }
 
 .projects_page_projects_section_logos {
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 2px 0px 0px #dddddd;
     border: solid 1px #dddddd;
+}
+
+.projects_page_projects_section_logos:hover {
+    
+    box-shadow: 0px 2px 0px 0px #FD5F00;
+    border: solid 1px #FD5F00;
+    transition: border 0.2s ease;
 }
 
 #projects_section_case_study_main_margin {
