@@ -13,12 +13,12 @@ app.getId = function $(id) {
     return document.getElementById(id).id;
 };
 app.include = function(id, html) {
-    console.log(id)
-    $('#' + id).load(html + '.html')
-}
-/*////////////////////////////////////////////////////////*/
-/*////////////////////////////////////////////////////////*/
-/*////////////////////////////////////////////////////////*/
+        console.log(id)
+        $('#' + id).load(html + '.html')
+    }
+    /*////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////*/
 $(document).ready(function() {
     $("#go_to_top_icon").hide();
     //Check to see if the window is top if not then display button
@@ -55,25 +55,28 @@ $(document).ready(function() {
                 items: 4
             },
             600: {
+                items: 4
+            },
+            750: {
                 items: 5
             },
             900: {
                 items: 5
             },
             1000: {
-                items: 6
+                items: 5
             },
             1200: {
-                items: 8
+                items: 5
             },
             1400: {
-                items: 8
+                items: 6
             },
             1600: {
-                items: 9
+                items: 7
             },
             1800: {
-                items: 9
+                items: 8
             },
             2000: {
                 items: 10
