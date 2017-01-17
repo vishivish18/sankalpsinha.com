@@ -314,8 +314,8 @@ a:active {
     font-size: 9px;
     font-family: Montserrat-Regular;
     float: right;
-    background-color: #f5f5f5;
-    border: 1px solid #f1f1f1;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
     border-radius: 10px;
     padding: 4px 8px;
     margin-top: -2px;
@@ -340,9 +340,9 @@ a:active {
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #333;
+    /*color: #333;
     font-size: 13px;
-    letter-spacing: 0px;
+    letter-spacing: 0px;*/
 }
 
 #go_to_top_icon {
@@ -544,7 +544,7 @@ a:active {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 
@@ -617,8 +617,8 @@ a:active {
 }
 
 .projects_page_projects_section_logos:hover {
-    box-shadow: 0px 2px 0px 0px #FD5F00;
-    border: solid 1px #FD5F00;
+    box-shadow: 0px 2px 0px 0px #bbb;
+    border: solid 1px #bbb;
     transition: border 0.2s ease;
 }
 
@@ -1378,7 +1378,7 @@ a:active {
 @media (max-width: 399px) and (min-width: 0px) {
     #landing_top {
         background-size: 170%;
-        background-position-x: -130px;
+        background-position-x: -145px;
         background-position-y: -20px;
         background-image: url("../images/landing_back2.png");
     }
