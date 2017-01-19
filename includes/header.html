@@ -20,7 +20,7 @@
                           Projects <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu scrollable-menu">
-                            <li class="dropdown-menu_items">
+                            <!-- <li class="dropdown-menu_items">
                                 <a href="http://www.sankalpsinha.com/projects/primary.html" class="dropdown-menu_items_link">
                                     Primary <span class="dropdown-menu_project_tags">Branding</span><span class="dropdown-menu_project_tags">UI/UX</span>
                                 </a>
@@ -39,7 +39,7 @@
                                 <a href="http://www.sankalpsinha.com/projects/vwo.html" class="dropdown-menu_items_link">
                                     VWO <span class="dropdown-menu_project_tags">UI/UX</span>
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="dropdown-menu_items">
                                 <a href="http://www.sankalpsinha.com/projects/letwallinspire.html" class="dropdown-menu_items_link">
                                     Letwallinspire <span class="dropdown-menu_project_tags">Branding</span><span class="dropdown-menu_project_tags">UI/UX</span>
@@ -155,8 +155,8 @@
 </header>
 <script type="text/javascript">
   $('ul.nav li.dropdown').hover(function() {        
-        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        $(this).find('.dropdown-menu').stop(true, true).delay(50).show(50);
     }, function() {
-        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        $(this).find('.dropdown-menu').stop(true, true).delay(50).hide(50);
     });
 </script>
