@@ -154,9 +154,16 @@
     <!-- /.Navbar end -->
 </header>
 <script type="text/javascript">
-  $('ul.nav li.dropdown').hover(function() {        
-        $(this).find('.dropdown-menu').stop(true, true).delay(50).show(50);
-    }, function() {
-        $(this).find('.dropdown-menu').stop(true, true).delay(50).hide(50);
-    });
+//Click event to scroll to top
+$('#go_to_top_icon').click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 800);
+    return false;
+});
+$('ul.nav li.dropdown').hover(function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(50).show(50);
+}, function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(50).hide(50);
+});
 </script>

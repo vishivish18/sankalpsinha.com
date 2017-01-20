@@ -29,11 +29,6 @@ $(document).ready(function() {
             $('#go_to_top_icon').fadeOut();
         }
     });
-    //Click event to scroll to top
-    $('#go_to_top_icon').click(function() {
-        $('html, body').animate({ scrollTop: 0 }, 800);
-        return false;
-    });
 });
 /*////////////////////////////////////////////////////////*/
 /*////////////////////////////////////////////////////////*/
