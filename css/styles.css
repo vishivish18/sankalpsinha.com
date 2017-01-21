@@ -128,6 +128,35 @@ a:active {
     text-decoration: underline;
 }
 
+.link_about_icon_orange:link {
+    color: #fd5725;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.link_about_icon_orange:visited {
+    color: #fd5725;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+.link_about_icon_orange:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+.link_about_icon_orange:active {
+    color: #333;
+    text-decoration: none;
+}
+
 
 /* selected link */
 
@@ -337,6 +366,8 @@ a:active {
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #FD5F00 !important;
+    font-weight: 900 !important;
+    /*border-bottom: 2px solid #fd5f00;*/
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
@@ -513,6 +544,7 @@ a:active {
     font-family: Lato;
     font-size: 48px;
     font-weight: 900;
+    text-align: center;
 }
 
 #about_section_intro_description {
@@ -521,6 +553,7 @@ a:active {
     font-weight: 400;
     line-height: 38px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #about_nav {
@@ -623,7 +656,7 @@ a:active {
 }
 
 #projects_section_case_study_main_margin {
-    margin-top: 30px;
+    margin-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -1349,6 +1382,7 @@ a:active {
     .about_section_story_title {
         font-size: 26px;
         margin-bottom: 10px;
+        margin-top: 30px;
     }
     .about_section_story_detail {
         font-size: 16px;
@@ -1462,6 +1496,7 @@ a:active {
     #about_section_intro_name {
         font-size: 26px;
         margin-bottom: 0px;
+        margin-top: 5px;
     }
     #about_section_intro_description {
         font-size: 16px;
