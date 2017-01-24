@@ -377,6 +377,7 @@ a:active {
 }
 
 #go_to_top_icon {
+    display: none;
     bottom: 20px;
     right: 20px;
     position: fixed;
